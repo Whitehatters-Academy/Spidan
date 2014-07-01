@@ -1,0 +1,7 @@
+# Things to think about...
+
+
+Server and X-Powered-By headers can be queried on Shodan to look for vulnerabilities.
+Cookies can sometimes provide information, or be a source to query against to look for matching websites.
+IP address of the website can be GeoIP'd to get approximate location (of the server at least)
+Robots.txt can be useful to identify content that is normally not viewable to people via Search Engines, can also be used to ID the website if using a CMS or something similar
